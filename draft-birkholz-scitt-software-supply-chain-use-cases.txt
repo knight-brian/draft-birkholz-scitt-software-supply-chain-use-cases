@@ -6,6 +6,8 @@ Network Working Group                                        H. Birkholz
 Internet-Draft                                            Fraunhofer SIT
 Intended status: Informational                                 D. Brooks
 Expires: 20 April 2023                                               REA
+                                                               R. Martin
+                                                                   MITRE
                                                                B. Knight
                                                                Microsoft
                                                          17 October 2022
@@ -344,6 +346,11 @@ Authors' Addresses
    Dick Brooks
    REA
    Email: dick@reliableenergyanalytics.com
+
+
+   Robert Martin
+   MITRE
+   Email: ramartin@mitre.org
 
 
    Brian Knight
