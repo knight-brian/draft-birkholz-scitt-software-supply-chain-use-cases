@@ -75,7 +75,6 @@ Table of Contents
      3.1.  Software Bill of Material
        3.1.1.  Producer (MCW) Actions
        3.1.2.  Consumer Actions
-       3.1.3.  Implementation Scenario
      3.2.  Vulnerability Disclosure Report
        3.2.1.  Producer (MCW) Actions
        3.2.2.  Consumer Actions
@@ -211,11 +210,7 @@ Table of Contents
        search for each SBOM component, identifying any CVE's that are
        reported.
 
-3.1.3.  Implementation Scenario
-
-   TBD
-
-   deployment scenario digram here
+   deployment scenario diagram here
 
              Figure 3: Potential SCITT Implementation Scenario
 
