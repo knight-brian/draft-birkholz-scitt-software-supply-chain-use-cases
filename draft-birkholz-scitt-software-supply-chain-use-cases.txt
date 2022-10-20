@@ -5,12 +5,12 @@
 Network Working Group                                        H. Birkholz
 Internet-Draft                                            Fraunhofer SIT
 Intended status: Informational                                 D. Brooks
-Expires: 20 April 2023                                               REA
+Expires: 23 April 2023                                               REA
                                                                R. Martin
                                                                    MITRE
                                                                B. Knight
                                                                Microsoft
-                                                         17 October 2022
+                                                         20 October 2022
 
 
            Detailed Software Supply Chain Uses Case for SCITT
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 April 2023.
+   This Internet-Draft will expire on 23 April 2023.
 
 Copyright Notice
 
@@ -72,18 +72,19 @@ Table of Contents
 
    1.  Introduction
      1.1.  Terminology
-   2.  Notational Implementation
-   3.  Software Supply Chain Use Cases
-     3.1.  Software Bill of Material
-       3.1.1.  Producer (MCW) Actions
-       3.1.2.  Consumer Actions
-     3.2.  Vulnerability Disclosure Report
-       3.2.1.  Producer (MCW) Actions
-       3.2.2.  Consumer Actions
-     3.3.  NIST self-attestation: SSDF Framework
-       3.3.1.  Producer (MCW) Actions
-       3.3.2.  Consumer Actions
-   4.  Normative References
+   2.  Generic Problem Statement
+   3.  Notational Implementation
+   4.  Software Supply Chain Use Cases
+     4.1.  Software Bill of Material
+       4.1.1.  Producer (MCW) Actions
+       4.1.2.  Consumer Actions
+     4.2.  Vulnerability Disclosure Report
+       4.2.1.  Producer (MCW) Actions
+       4.2.2.  Consumer Actions
+     4.3.  NIST self-attestation: SSDF Framework
+       4.3.1.  Producer (MCW) Actions
+       4.3.2.  Consumer Actions
+   5.  Normative References
    Appendix A.  TODO List
    Authors' Addresses
 
@@ -119,7 +120,7 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-   {::comment} # Generic Problem Statement
+2.  Generic Problem Statement
 
    As illustrated in Figure 1, a supply chain attack may leverage one or
    more lifecycle stages and directly or indirectly target the
@@ -134,7 +135,7 @@ Table of Contents
    // payload agnostic concept needed.  Also insert notatonal artifacts
    // table here.
 
-2.  Notational Implementation
+3.  Notational Implementation
 
    TBD
 
@@ -142,9 +143,9 @@ Table of Contents
 
        Figure 2: Deployment Example of SCITT in Software Development
 
-3.  Software Supply Chain Use Cases
+4.  Software Supply Chain Use Cases
 
-3.1.  Software Bill of Material
+4.1.  Software Bill of Material
 
    Micro Coding Wizards (MCW) is a small, fictional, software
    development company providing software solutions to help manage a
@@ -163,7 +164,7 @@ Table of Contents
    "Vulnerability Disclosure Report" (VDR) NIST attestation to the DOI
    prior to procurement.
 
-3.1.1.  Producer (MCW) Actions
+4.1.1.  Producer (MCW) Actions
 
    A software producer, in this case MCW, creates a digitally signed
    SBOM, listing all the components contained in the final "distribution
@@ -186,7 +187,7 @@ Table of Contents
        consumer with a link to these artifacts for downloading to the
        customers environment.
 
-3.1.2.  Consumer Actions
+4.1.2.  Consumer Actions
 
    A software consumer, in this case DOI, obtains a digitally signed
    SBOM artifact from a software vendor, which initiates the following
@@ -216,7 +217,7 @@ Table of Contents
 
              Figure 3: Potential SCITT Implementation Scenario
 
-3.2.  Vulnerability Disclosure Report
+4.2.  Vulnerability Disclosure Report
 
    MCW has been informed by DOI that their software will be subject to
    Cybersecurity Executive Order (EO) 14028 recommendations from NIST
@@ -224,7 +225,7 @@ Table of Contents
    "Vulnerability Disclosure Report" (VDR) NIST attestation to the DOI
    prior to procurement.
 
-3.2.1.  Producer (MCW) Actions
+4.2.1.  Producer (MCW) Actions
 
    A software producer, in this case MCW, participates in a
    Vulnerability Disclosure Program, and generates a Vulnerability
@@ -246,7 +247,7 @@ Table of Contents
        consumer with a link to these artifacts for downloading to the
        customers environment. 
 
-3.2.2.  Consumer Actions
+4.2.2.  Consumer Actions
 
    A software consumer, in this case DOI, obtains a digitally signed VDR
    artifact from a software vendor, which initiates the following risk
@@ -276,13 +277,13 @@ Table of Contents
        search for each SBOM component, identifying any CVE's that are
        reported.
 
-3.3.  NIST self-attestation: SSDF Framework
+4.3.  NIST self-attestation: SSDF Framework
 
    Consistent with the NIST Guidance and by the timelines identified
    below, agencies are required to obtain a self-attestation from the
    software producer before using the software.
 
-3.3.1.  Producer (MCW) Actions
+4.3.1.  Producer (MCW) Actions
 
    An acceptable self-attestation must include the following minimum
    requirements:
@@ -302,11 +303,11 @@ Table of Contents
        is required due to the criticality of the service or product that
        is being acquired, as defined in M-21-30.
 
-3.3.2.  Consumer Actions
+4.3.2.  Consumer Actions
 
    TBD
 
-4.  Normative References
+5.  Normative References
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
