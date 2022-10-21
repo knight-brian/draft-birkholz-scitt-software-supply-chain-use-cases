@@ -5,12 +5,12 @@
 Network Working Group                                        H. Birkholz
 Internet-Draft                                            Fraunhofer SIT
 Intended status: Informational                                 D. Brooks
-Expires: 23 April 2023                                               REA
+Expires: 24 April 2023                                               REA
                                                                R. Martin
                                                                    MITRE
                                                                B. Knight
                                                                Microsoft
-                                                         20 October 2022
+                                                         21 October 2022
 
 
            Detailed Software Supply Chain Uses Case for SCITT
@@ -35,7 +35,7 @@ About This Document
 
    Source for this draft and an issue tracker can be found at
    https://github.com/ietf-scitt/draft-birkholz-scitt-software-supply-
-   chain-use-case.
+   chain-use-cases.
 
 Status of This Memo
 
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 April 2023.
+   This Internet-Draft will expire on 24 April 2023.
 
 Copyright Notice
 
